@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    background: #FEF5F5;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner {
+    margin-left: 150px;
+}
+
+#nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+#nav ul li {
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#main {
+    margin-top: 150px;
+}
+
+.banner_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_left {
+    padding-left: 150px;
+    color: #1D15A2;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_left p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.banner_left h3 {
+    font-size: 40px;
+}
+
+.banner_left img {
+    /* font-weight: bold;
+    -webkit-text-stroke: 0.1px #1D15A2;
+    text-shadow: -1px 0 #1D15A2,
+        0 1px #1D15A2,
+        1px 0 #1D15A2,
+        0 -1px #1D15A2; */
+}
+
+.banner-text img {
+    width: 90%;
+}
+
+.banner_right img {
+    width: 75%;
+    margin-right: 50px;
+}
+
+.arrow_img img {
+    width: 20%;
+}
+
+.sns_img img {
+    margin: 40px 5px 0 0;
+}
+
+.Rectangle {
+    margin-top: 50px;
+}
+
+.Rectangle img:first-child {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.Rectangle img:last-child {
+    width: 100%;
+    margin-top: -120px;
+}
+
+.Rectangle2 {
+    display: flex;
+    flex-direction: row;
+    color: #1D15A2;
+}
+
+.Rectangle_img img {
+    width: 60%;
+    margin-left: 200px;
+}
+
+.Rectangle_text1 {
+    width: 80%;
+}
+
+.Rectangle_text1 h5 {
+    display: block;
+    font-size: 16px;
+    padding-left: 40px;
+    margin-top: -33px;
+}
