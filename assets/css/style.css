@@ -239,8 +239,124 @@ body {
     justify-content: center;
 }
 
-.blogs:nth-child(4) {
-    margin: 30px auto;
+.blogs div img:first-child {
+    margin-right: 50px;
+}
+
+.blogs div:last-child {
+    margin: 100px auto;
     text-align: center;
-    background-color: #1D15A2;
+}
+
+.blogs_text {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    color: #1D15A2;
+    margin: 60px auto;
+}
+
+.blogs_text h3 {
+    letter-spacing: 2px;
+    font-weight: 600;
+    height: 30px;
+}
+
+.blogs_text h1 {
+    font-size: 115px;
+    color: #fff;
+    letter-spacing: 5px;
+    text-shadow: -1.5px 0 #1D15A2,
+        0 1.5px #1D15A2,
+        1.5px 0 #1D15A2,
+        0 -1.5px #1D15A2;
+}
+
+#footer {
+    width: 60%;
+    margin: auto;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: -680px;
+    margin-top: 100px;
+}
+
+.footer-left div:first-child {
+    width: 45%;
+}
+
+.footer-left p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-bottom h1 {
+    display: block !important;
+    margin-top: 80px;
+}
+
+.footer_right {
+    width: 40%;
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    left: -200px;
+    color: #fff;
+}
+
+.footer_right div {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fr_input {
+    margin: 15px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.fr_input input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 50%;
+    border: 1px solid lightcoral;
+}
+
+.fr_input a {
+    position: relative;
+    width: 40%;
+    background: lightcoral;
+    border: 1px solid lightcoral;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: -15px;
+    z-index: 55;
+}
+
+.fr_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.fr_footer:last-child {
+    width: 70%;
 }
