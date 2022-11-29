@@ -100,20 +100,74 @@ body {
     display: flex;
     flex-direction: row;
     color: #1D15A2;
+    margin-left: 300px;
 }
 
 .Rectangle_img img {
-    width: 60%;
-    margin-left: 200px;
+    width: 90%;
+}
+
+.Rectangle_text {
+    margin-top: 40px;
 }
 
 .Rectangle_text1 {
-    width: 80%;
+    width: 45%;
 }
 
 .Rectangle_text1 h5 {
     display: block;
     font-size: 16px;
     padding-left: 40px;
-    margin-top: -33px;
+    margin-top: -35px;
+}
+
+.Rectangle_text1 p {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.Rectangle_text2 {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.Rectangle_text2 h5 {
+    display: block;
+    font-size: 16px;
+    padding-left: 40px;
+    margin-top: -35px;
+}
+
+.Rectangle_text2 p {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 60%;
+}
+
+.service_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    color: #1D15A2;
+}
+
+.service_text h3 {
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.service_text h1 {
+    font-size: 115px;
+    color: #fff;
+    letter-spacing: 5px;
+    text-shadow: -1px 0 #1D15A2,
+        0 1px #1D15A2,
+        1px 0 #1D15A2,
+        0 -1px #1D15A2;
 }
