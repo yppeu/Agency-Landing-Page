@@ -197,3 +197,50 @@ body {
     font-size: 30px;
     font-weight: bold;
 }
+
+.stalk {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.stalk img {
+    width: 50%;
+    margin: auto;
+}
+
+.stalk div {
+    margin: auto;
+    margin-top: -90px;
+    margin-left: 420px;
+    margin-bottom: 150px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.stalk div {
+    display: flex;
+    flex-direction: row;
+}
+
+.stalk div img {
+    width: 30%;
+}
+
+.stalk h5 {
+    font-size: 30px;
+    margin: -150px 0 50px 420px;
+    letter-spacing: 3px;
+}
+
+.blogs div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blogs:nth-child(4) {
+    margin: 30px auto;
+    text-align: center;
+    background-color: #1D15A2;
+}
