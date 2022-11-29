@@ -166,8 +166,34 @@ body {
     font-size: 115px;
     color: #fff;
     letter-spacing: 5px;
-    text-shadow: -1px 0 #1D15A2,
-        0 1px #1D15A2,
-        1px 0 #1D15A2,
-        0 -1px #1D15A2;
+    text-shadow: -1.5px 0 #1D15A2,
+        0 1.5px #1D15A2,
+        1.5px 0 #1D15A2,
+        0 -1.5px #1D15A2;
+    margin-bottom: -200px;
+}
+
+.service_img img {
+    width: 100%;
+    text-align: ce0nter;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    justify-content: center;
+    align-items: flex-start;
+    color: #1D15A2;
+}
+
+.brand_text p:first-child {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.brand_text p:last-child {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
 }
